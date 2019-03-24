@@ -1,0 +1,35 @@
+{
+  "name": "bp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-builder --dir"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "electron-rebuild": "^1.8.2"
+  },
+  "dependencies": {
+    "serialport": "^7.1.0"
+  },
+  "build": {
+    "appId": "com.cilent.app.electronbuild",
+    "productName": "electron-build",
+    "directories": {
+      "output": "build"
+    },
+    "mac": {
+      "icon": "icons/Mushroom.ico"
+    },
+    "win": {
+      "icon": "icons/Mushroom.ico"
+    },
+    "linux": {
+      "icon": "icons/Mushroom.ico"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!-- Body tag is where we will append our SVG and SVG objects-->
+<head>
+  <link rel="stylesheet" type="text/css" href="view.css"/>
+</head>
+<body>
+  <div class='chartHeader'>Cardio Ring 2018 EOY Demo</div>
+  <div class='mainChart'>
+    <div class='leftChart'>
+      <div class='chart1'>
+      </div>
+      <div class='chart2'>
+      </div>
+    </div>
+    <div class='rightChart'>
+      <div class='heartRate'></div>
+      <div class='meanArterialPressure'></div>
+      <div class='systolicPressure'></div>
+      <div class='diastolicPressure'></div>
+      <div class='bloodPressureAC'></div>
+      <input type='checkbox' id='saveRaw' class='saveRaw'/><label for='saveRaw'>save raw data</label>
+    </div>
+  </div>
+</body>
+<script src="d3.min.js"></script>
+<script src="chart.js"></script>
+<script src="view.js"></script>
+
+<!-- Load in the d3 library -->
